@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <div class="searchBox">
+            <button onclick='getAll()'>Get All</button>
+            <input placeholder="Search By Name" oninput='getSearchResults(this.value)'/>
+            <input placeholder="Search By Id" oninput="searchById(this.value)"/>
+        </div>
+        <div class="searchResults">
+            <ol class="ul" id="ul">
+
+            </ol>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

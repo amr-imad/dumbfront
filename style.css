@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+.searchBox{
+    margin-bottom: 20px;
+}
